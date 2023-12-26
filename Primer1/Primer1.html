@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<title>ДЗ13</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+	
+<body>
+	<ul class="menu">
+  		<li><a href="#home">Главная</a></li>
+  		<li><a href="#about">Цель</a></li>
+  		<li><a href="#services">Знаменитости</a></li>
+  		<li><a href="#contact">Вывод</a></li>
+    	</ul>
+
+    	<div class="header" id=home>
+        	<h1>Итоговая работа по разработке html-страниц</h1>
+        	<p>Смирнов Егор Александрович 2-1 ИС</p>
+    	</div>    
+	
+	<div class="hero-image" id=about>
+        	<div class="hero-text">
+	    		<h1 class="text">Я родился в городе</h1>
+            		<h2>· КОСТРОМА ·</h2><br><br><br>
+        	</div>
+	</div>
+
+	<div class="perehod">
+		<h1>Знаменитые личности, родившиеся в Костроме</h1>
+	</div>
+    	<div class="features" id=services>
+		<div class="feature">
+            		<h3>Смирнов Е. А.</h3>
+            		<img 
+                        src="ea_smirn.jpg"
+                        alt="ну я, получается)" 
+                        width=30%>
+        	</div>
+        	<div class="feature">
+            		<h3>Ищук О. В.</h3>
+            		<img 
+                        src="ov_ishuk.jpg"
+                        alt="Ищук Ольга Вячеславовна"
+                        width=30%>
+       		</div>
+        	<div class="feature">
+            		<h3>Курцин Р. Д.</h3>
+            		<img
+                        src='nn_kostr.jpg'
+                        alt="какой-то костромской актер :)"
+                        width=30%>
+        	</div>
+    	</div>
+    
+    <div class="perehod">
+		<h1>Вывод</h1>
+	</div>
+
+	<div id=contact>
+    	<table 
+            border="10" 
+            align="center" 
+            bgcolor="black" 
+            width="50%">
+		<tr align="center">
+			<td width=30% height="10" bgcolor="white">
+                        	Введите логин:<br>
+    				<input type="text" id="text-input" name="text-input" placeholder="Введите текст">
+			</td>
+			<td width=30% height="10" bgcolor="white">
+				Введите пароль:<br>
+    				<input type="password" id="password-input" name="password-input" placeholder="Введите пароль">
+			</td>
+			<td width=40% height="10" bgcolor="white">
+				Введите ваш e-mail:<br>
+    				<input type="email" id="email-input" name="email-input" size="30" placeholder="*@yandex.ru">
+			</td>
+		</tr>
+		<tr align="center">
+			<td colspan="2" bgcolor="white" width=50%>
+				    Выберите знакомых людей:<br>
+				    <input type="checkbox" id="checkbox-input" name="checkbox-input">Смирнов Егор Александрович<img src="ea_smirn.jpg" alt="ну я, получается)" width=3%><br>
+				    <input type="checkbox" id="checkbox-input" name="checkbox-input">Ищук Ольга Вячеславовна<img src="ov_ishuk.jpg" alt="Ищук Ольга Вячеславовна" width=3%><br>
+				    <input type="checkbox" id="checkbox-input" name="checkbox-input">Курцин Роман Дмитриевич<img src="nn_kostr.jpg" alt="какой-то костромской актер :)" width=3%><br>
+			</td>
+			<td colspan="2" bgcolor="white" width=50%>
+				        Выберите, кому подарить конфетку:<br>
+					<input type="radio" id="radio-input" name="radio-input">Смирнов Егор Александрович<img src="ea_smirn.jpg" alt="ну я, получается)" width=3%><br>
+    					<input type="radio" id="radio-input" name="radio-input">Ищук Ольга Вячеславовна<img src="ov_ishuk.jpg" alt="Ищук Ольга Вячеславовна" width=3%><br>
+    					<input type="radio" id="radio-input" name="radio-input">Курцин Роман Дмитриевич<img src="nn_kostr.jpg" alt="какой-то костромской актер :)" width=3%><br>
+    			</td>
+		</tr>
+		<tr align="center">
+			<td colspan="3" bgcolor="white">
+				       	Опиши, почему именно этому человеку?<br>
+					<textarea id="textarea-input" name="textarea-input"></textarea>
+    			</td>
+		</tr>
+		<tr align="center">
+			<td colspan="3" bgcolor="white">
+                <button onclick="showMessage()">Узнать сумму</button>
+                <script src="script.js"></script>
+    		</td>
+		</tr>	
+        
+    	</table>
+	</div>
+</body>
+</html>

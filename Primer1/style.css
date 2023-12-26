@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-color: #A9A9A9;
+}
+    
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.perehod {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+   
+.hero-image {
+font-family: "Times New Roman";
+    background-image: url('kostroma.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.hero-text {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    margin-bottom: px;
+}
+    
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+    
+.feature {
+    text-align: center;
+    width: 30%;
+}
+    
+.footer {
+    background-color: #f9f9f9;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+ul.menu {
+background-position: top center;
+    list-style-type: none; /* убираем маркеры для списка */
+    margin: 0;
+   padding: 0px;
+    overflow: hidden; /* скрываем все, что выходит за пределы меню */
+    background-color: #333; /* цвет фона меню */
+    position: fixed; /* делаем меню фиксированным */
+    width: 80; /* задаем ширину меню */
+}
+
+ul.menu li {
+    float: left; /* выстраиваем элементы списка горизонтально */
+text-align: center;
+}
+
+ul.menu li a {
+    display: inline-block; /* делаем ссылки блочными элементами */
+   color: #fff; /* цвет текста ссылок */
+    text-align: center; /* располагаем текст по центру ссылок */
+    padding: 10px 10px; /* внутренние отступы ссылок */
+    text-decoration: none; /* убираем подчеркивание ссылок */
+}
+
+ul.menu li a:hover {
+    background-color: #fff; /* изменяем цвет фона при наведении на ссылку */
+color: #000;
+}
